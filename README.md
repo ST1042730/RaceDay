@@ -46,7 +46,7 @@ The database contains the following main entities:
 
 GitHub Actions is used as part of the project's CI/CD process.
 
-CI/CD Screenshot: To be added.
+![RaceDay CI/CD Screenshot](docs/RaceDay_CICD_Screenshot.png)
 
 ## Video Demonstration
 
