@@ -23,3 +23,15 @@ Access to endpoints is based on the two system roles: Organiser and Participant.
 The RaceDay ERD represents the structure of the database and the relationships between the different entities. The database includes Users, Events, Categories, EventCategories, Enrolments, Results, EventRoutes and EventWeather.
 
 Primary keys and foreign keys are used to connect related data. For example, an organiser can manage multiple events, while participants can enrol in event categories and have their results recorded.
+## Database Entities
+
+The RaceDay database consists of eight main entities:
+
+- Users – stores organiser and participant account information.
+- Events – stores details about RaceDay events.
+- Categories – stores the available event category types.
+- EventCategories – links categories to specific events.
+- Enrolments – records participants who enter event categories.
+- Results – stores participant race results.
+- EventRoutes – stores route and distance information for events.
+- EventWeather – stores weather information associated with events.
