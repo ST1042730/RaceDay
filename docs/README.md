@@ -18,3 +18,8 @@ The database uses primary and foreign keys to maintain relationships between the
 The API endpoint plan defines how the RaceDay system will communicate with the REST API that will be developed in Part 2. The planned endpoints cover authentication, user profiles, events, categories, event enrolments and participant results.
 
 Access to endpoints is based on the two system roles: Organiser and Participant.
+## Entity Relationship Diagram
+
+The RaceDay ERD represents the structure of the database and the relationships between the different entities. The database includes Users, Events, Categories, EventCategories, Enrolments, Results, EventRoutes and EventWeather.
+
+Primary keys and foreign keys are used to connect related data. For example, an organiser can manage multiple events, while participants can enrol in event categories and have their results recorded.
