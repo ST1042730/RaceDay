@@ -35,3 +35,10 @@ The RaceDay database consists of eight main entities:
 - Results – stores participant race results.
 - EventRoutes – stores route and distance information for events.
 - EventWeather – stores weather information associated with events.
+## Database Verification
+
+The RaceDay database was tested using Microsoft SQL Server Management Studio (SSMS).
+
+The SQL script was executed to verify that the required database tables could be created successfully. SELECT statements were also used to confirm that the sample data was inserted correctly.
+
+The database includes sample organisers, participants, events, categories, event categories and participant enrolments.
