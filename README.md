@@ -41,7 +41,16 @@ The database contains the following main entities:
 - Results
 - EventRoutes
 - EventWeather
+## Technologies Used
 
+The following technologies and tools are used in the development of RaceDay:
+
+- Microsoft SQL Server – database management
+- SQL Server Management Studio (SSMS) – database development and testing
+- GitHub – source control and project repository
+- GitHub Actions – CI/CD workflow
+- diagrams.net – Entity Relationship Diagram design
+- Microsoft Word – API endpoint planning documentation
 ## CI/CD
 
 GitHub Actions is used as part of the project's CI/CD process.
