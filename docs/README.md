@@ -8,3 +8,8 @@ This folder contains the planning and database documentation for the RaceDay eve
 - RaceDay_Database.sql – SQL Server script used to create and populate the RaceDay database.
 - RaceDay_API_Endpoint_Plan.docx – Planned REST API endpoints for the RaceDay system.
 - RaceDay_CICD_Screenshot.png – Evidence of the successful GitHub Actions workflow.
+## Database Overview
+
+The RaceDay database was designed in SQL Server and contains the main data required by the system. It stores users, events, categories, enrolments, participant results, event routes and weather information.
+
+The database uses primary and foreign keys to maintain relationships between the tables and includes constraints such as NOT NULL and UNIQUE where required.
