@@ -1,0 +1,22 @@
+name: Validate RaceDay Part 1
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required documentation files
+        run: |
+          test -f docs/RaceDay_Database.sql
+          test -f docs/RaceDay_ERD.png
+          test -f docs/RaceDay_API_Endpoint_Plan.docx
+          echo "Required Part 1 documentation files found."
