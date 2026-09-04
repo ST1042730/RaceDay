@@ -41,6 +41,14 @@ The database contains the following main entities:
 - Results
 - EventRoutes
 - EventWeather
+  ## Project Structure
+
+RaceDay/
+- .github/workflows/ – GitHub Actions CI/CD workflow
+- docs/ – Part 1 planning and database documentation
+- README.md – Project overview and documentation
+
+The docs folder contains the ERD, API endpoint plan, SQL database script and CI/CD evidence.
 ## Technologies Used
 
 The following technologies and tools are used in the development of RaceDay:
