@@ -64,7 +64,17 @@ The following technologies and tools are used in the development of RaceDay:
 GitHub Actions is used as part of the project's CI/CD process.
 
 ![RaceDay CI/CD Screenshot](docs/RaceDay_CICD_Screenshot.png)
+## Part 1 Deliverables
 
+The following Part 1 requirements have been completed:
+
+- [x] Entity Relationship Diagram (ERD)
+- [x] API Endpoint Plan
+- [x] SQL Server Database Script
+- [x] Sample Database Data
+- [x] GitHub Actions CI/CD Workflow
+- [x] CI/CD Evidence Screenshot
+- [ ] Video Demonstration
 ## Video Demonstration
 
 YouTube Video: To be added.
